@@ -14,16 +14,12 @@ Page({
     },
     list: [
       {
-        name: '基础业务功能',
+        name: '配网',
         url: '/pages/base_function/index'
       },
       {
-        name: '体验 Demo 面板',
+        name: '设备',
         url: '/pages/home_center/device_list/index'
-      },
-      {
-        name: '体验涂鸦小程序',
-        url: 'navigateToMiniProgram'
       }
     ]
   },

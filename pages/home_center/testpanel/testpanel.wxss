@@ -1,0 +1,51 @@
+/* pages/home_center/testpanel/testpanel.wxss */
+
+.panel-switch{
+  width: 400rpx;
+  height: 400rpx;
+  line-height: 400rpx ;
+  margin: 100rpx auto;
+  border-radius: 50%;
+  border: 1rpx solid blue;
+  text-align: center;
+}
+
+
+.panel-statu-detail{
+  width:90%;
+  height: 400rpx;
+  border-radius: 20rpx;
+  margin: 20rpx auto;
+  background-color: pink;
+  position: relative;
+}
+.panel-statu-detail-cur{
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 25rpx solid transparent;
+  border-right: 25rpx solid transparent;
+  border-top: 50rpx solid pink ;
+  bottom: -50rpx;
+  left: 50rpx;
+}
+
+.panel-statu{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 100rpx;
+  bottom: 100rpx;
+  display: flex;
+  align-content: space-between;
+}
+
+.panel-statu-list{
+  flex:1;
+  text-align: center;
+
+}
+
+.panel-statu-icon{
+
+}

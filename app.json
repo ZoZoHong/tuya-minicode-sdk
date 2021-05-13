@@ -7,7 +7,8 @@
     "pages/cloud_check/index",
     "pages/function_center/device_connect/index",
     "pages/web_view/index",
-    "pages/base_function/index"
+    "pages/base_function/index",
+     "pages/home_center/testpanel/testpanel"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,5 +22,20 @@
       "provider": "wxd2aa51ffacc3ff86"
     }
   },
-  "sitemapLocation": "sitemap.json"
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/guide/index",
+        "text": "首页",
+        "iconPath":  "./image/index.png",
+        "selectedIconPath": "./image/index-o.png"
+      },
+      {
+        "pagePath": "pages/home_center/testpanel/testpanel",
+        "text": "我的",
+        "iconPath": "./image/wode.png",
+        "selectedIconPath": "./image/wode-o.png"
+      }
+  ]
+  }
 }

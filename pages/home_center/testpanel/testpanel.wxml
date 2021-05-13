@@ -1,0 +1,22 @@
+<!--pages/home_center/testpanel/testpanel.wxml-->
+<wxs src="./index.wxs" module="utils" />
+<navbar device_name="{{device_name}}" />
+<view class="panel-switch" bindtap="sendDp">
+  <text>{{rwDplist.switch.name}}</text>
+</view>
+
+<view class="panel-statu-detail">
+  <view class="panel-statu-list"  wx:for="{{roDpList}}" wx:key="{{item.code}}" wx:for-item="item" wx:for-index='idx'>
+    <view class="panel-statu-icon">{{item.code}}</view>
+    <text class="panel-statu-title">{{item.value}}</text>
+  </view>
+  <text>{{rwDplist.switch.name}}</text>
+</view>
+
+<view class="panel-function">
+<block class="panel-function-list">
+  <image  src=""></image>
+  <text class=""> </text>
+</block>
+
+</view>
